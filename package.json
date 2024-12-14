@@ -1,0 +1,41 @@
+{
+	"name": "payload-127",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbo",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@next/bundle-analyzer": "15.0.4",
+		"@payloadcms/db-mongodb": "3.0.0-beta.127",
+		"@payloadcms/next": "3.0.0-beta.127",
+		"@payloadcms/payload-cloud": "3.0.0-beta.127",
+		"@payloadcms/plugin-seo": "3.0.0-beta.127",
+		"@payloadcms/richtext-lexical": "3.0.0-beta.127",
+		"@payloadcms/richtext-slate": "3.0.0-beta.127",
+		"@t3-oss/env-core": "^0.11.1",
+		"cheerio": "^1.0.0",
+		"escape-html": "^1.0.3",
+		"graphql": "^16.8.1",
+		"next": "15.1.0",
+		"payload": "3.0.0-beta.127",
+		"react": "19.0.0",
+		"react-dom": "19.0.0",
+		"slugify": "^1.6.6",
+		"zod": "^3.23.8"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.1",
+		"@types/escape-html": "^1.0.4",
+		"@types/node": "^20",
+		"@types/react": "19.0.1",
+		"@types/react-dom": "19.0.2",
+		"babel-plugin-react-compiler": "^19.0.0-beta-df7b47d-20241124",
+		"eslint": "^8",
+		"eslint-config-next": "15.1.0",
+		"typescript": "^5"
+	}
+}
